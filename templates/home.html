@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2>Extending base template for Recipe Keeper</h2>
-
     {% for category in categories %}
     {{ category.category_name }}<br>
     {{ category.category_description }}<br>
