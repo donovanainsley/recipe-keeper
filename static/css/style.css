@@ -1,0 +1,16 @@
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+.nav-extended .nav-wrapper {
+    background-color: #d4d8d8;
+    color: #0a0f0d;
+}
+
+nav .brand-logo {
+    color: #0a0f0d;
+}
+
+nav  ul li a  {
+    color: #0a0f0d;
+}
