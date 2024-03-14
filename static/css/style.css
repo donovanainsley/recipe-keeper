@@ -1,3 +1,7 @@
+body {
+    background-color: #DBD3D8;
+}
+
 /* Navbar custom CSS */
 
 .text-shadow {
@@ -19,6 +23,10 @@ nav  ul li a  {
 
 
 /* register.html CSS */
+
+.card-panel {
+    background-color: #EFF1F3;
+}
 
 .prefix {
     color: #D77A61;
