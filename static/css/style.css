@@ -1,16 +1,34 @@
+/* Navbar custom CSS */
+
 .text-shadow {
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .nav-extended .nav-wrapper {
-    background-color: #d4d8d8;
-    color: #0a0f0d;
+    background-color: #223843;
+    color: #EFF1F3;
 }
 
 nav .brand-logo {
-    color: #0a0f0d;
+    color: #EFF1F3;
 }
 
 nav  ul li a  {
-    color: #0a0f0d;
+    color: #EFF1F3;
+}
+
+
+/* register.html CSS */
+
+.prefix {
+    color: #D77A61;
+}
+
+.register-btn button {
+    background-color: #223843;
+}
+
+.register-btn button:hover {
+    background-color: #D77A61;
+    color: #EFF1F3;
 }
