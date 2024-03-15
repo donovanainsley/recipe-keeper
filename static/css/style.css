@@ -2,6 +2,17 @@ body {
     background-color: #DBD3D8;
 }
 
+/* flashes CSS */
+
+.flashes {
+    padding: 10px;
+    background-color: #d8b4a0;
+}
+
+.flashes h4 {
+    margin: 0 auto;
+}
+
 /* Navbar custom CSS */
 
 .text-shadow {
