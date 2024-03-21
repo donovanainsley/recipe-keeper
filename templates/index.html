@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {% for recipe in recipes %}
-    {{ recipe.category }}<br>
-    {{ recipe.recipe_name }}<br>
-    {{ recipe.recipe_description }}<br>
-    {{ recipe.recipe_ingredients }}<br>
-    {{ recipe.recipe_method }}<br>
-    {{ recipe.image_url }}<br>
-
-
-    {% endfor %}
+    <h3 class="center-align">Recipes</h3>
 
     <div class="row">
         {% for recipe in recipes %}
@@ -21,7 +12,7 @@
               <span class="card-title">{{ recipe.recipe_name }}</span>
             </div>
             <div class="card-content">
-              <p>Category: {{ recipe.category }}</p>
+              <p>Category: {{ recipe.category_name }}</p>
               <p>Description: {{ recipe.recipe_description }}</p>
               <p></p>
             </div>
