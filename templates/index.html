@@ -8,8 +8,12 @@
         <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img src="{{ recipe.image_url }}">
-              <span class="card-title">{{ recipe.recipe_name }}</span>
+              {% if recipe.image_url %}
+                  <img src="{{ recipe.image_url }}" alt="{{ recipe.recipe_name }}">
+              {% else %}
+                  <img src="{{ url_for('static', filename='images/dinner-is-served.webp') }}" alt="served up delicious hot pot">
+                {% endif %}
+                <span class="card-title">{{ recipe.recipe_name }}</span>
             </div>
             <div class="card-content">
                 <p>Category: {{ recipe.category_name }}</p>
