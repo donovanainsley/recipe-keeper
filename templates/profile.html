@@ -1,23 +1,59 @@
 {% extends "base.html" %}
 {% block content%}
 
-    <h3 class="center-align">Profile</h3>
+    <h3 class="center-align">{{ username }}'s Profile</h3>
 
+    {% if user_recipes %}
     <div class="row">
-        <div class="col s12 m8 offset-m2">
-            <div class="card-panel">
-                <h3 class="center-align light-blue-text text-darken-4">
-                    {{ username }}'s Profile
-                </h3>
-                <!-- add recipe -->
-                <div class="row">
-                    <div class="col s12 center-align">
-                        <a href="{{ url_for ('add_recipe') }}" class="s4 center-align btn-large waves-effect">
-                            Add Recipe <i class="fas fa-plus"></i>
-                        </a>
+        {% for recipe in user_recipes %}
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image">
+                  {% if recipe.image_url %}
+                    <img src="{{ recipe.image_url }}" alt="{{ recipe.recipe_name }}">
+                  {% else %}
+                    <img src="{{ url_for('static', filename='images/dinner-is-served.webp') }}" alt="served up delicious hot pot">
+                  {% endif %}
+                    <span class="card-title">{{ recipe.recipe_name }}</span>
+                </div>
+                <div class="card-content">
+                    <p>Category: {{ recipe.category_name }}</p>
+                    <p>Description: {{ recipe.recipe_description }}</p>
+                    <p>Created By: {{ recipe.created_by }}</p>
+                    <div class="s3">
+                      {% if session.user|lower == recipe.created_by|lower %}
+                            <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green">Edit</a>
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn-small red modal-trigger" href="#modal{{ recipe._id }}">Delete</a>
+                            <!-- Modal Structure -->
+                              <div id="modal{{ recipe._id }}" class="modal">
+                                <div class="modal-content">
+                                  <h4>Oops!</h4>
+                                  <strong>Are you sure you want to delete {{ recipe.recipe_name }}?</strong>
+                                </div>
+                                <div class="modal-footer">
+                                  <a href="#!" class="modal-close waves-effect waves-light btn-small">Cancel</a>
+                                  <a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" class="modal-close waves-effect waves-light btn-small red">Delete</a>
+                                </div>
+                              </div>
+                      {% endif %}
+                      <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-small blue">View</a>
                     </div>
                 </div>
+                <div class="s3"></div>
             </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+
+    <!-- add recipe -->
+    <div class="row">
+        <div class="col s12 center-align">
+            <a href="{{ url_for ('add_recipe') }}" class="s4 center-align btn-large waves-effect">
+                Add Recipe <i class="fas fa-plus"></i>
+            </a>
         </div>
     </div>
 
