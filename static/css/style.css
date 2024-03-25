@@ -65,3 +65,12 @@ nav  ul li a  {
 .card .card-content p {
     margin: 5px 0 5px 0;
 }
+
+.view-recipe-image {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.view-recipe-image img {
+    width: 100%;
+}
