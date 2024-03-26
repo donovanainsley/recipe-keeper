@@ -2,6 +2,13 @@ body {
     background-color: #DBD3D8;
 }
 
+.title {
+    color: #223843;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
 /* flashes CSS */
 
 .flashes {
@@ -34,8 +41,9 @@ nav .brand-logo {
     }
 }
 
-nav  ul li a  {
+nav ul li a  {
     color: #EFF1F3;
+    font-weight: 600;
 }
 
 
