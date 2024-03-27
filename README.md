@@ -72,3 +72,21 @@ To clone the recipe keeper repository:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type git clone, and then paste the URL you copied in Step 2.
 6. Press enter. Your local clone has now been created.
+
+## Credits
+
+### Code
+
+1. [Materialize CSS 1.0.0](https://materializecss.com/about.html)
+   - Materialize was used to help to create the framwork and responsiveness of the website
+
+1. [Code Institute](https://codeinstitute.net/)
+   - Using The Code Institues Task Manager Application walkthrough which helped me with CRUD functionailty.
+
+### Content
+
+Content for the website was written by the developer, [donovanainsley](https://github.com/donovanainsley)
+
+### Media 
+
+- Back-up URL image for recipe cards was sourced from [Freepik](https://www.freepik.com/).
