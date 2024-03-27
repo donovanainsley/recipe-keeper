@@ -9,6 +9,11 @@ body {
     font-weight: 500;
 }
 
+@media only screen and (max-width: 678px) {
+    .card-content .s3 .btn-small {
+        letter-spacing: .4px;
+    }
+}
 /* flashes CSS */
 
 .flashes {
