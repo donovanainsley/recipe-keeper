@@ -6,6 +6,35 @@ Recipe Keeper is a user-friendly website designed to help users discover and org
 
 [Access the live site here.](https://recipe-keeper-project-967d6327becc.herokuapp.com/)
 
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- Jquery
+- Javascript
+- Python
+
+### Frameworks 
+
+- [Flask](https://pypi.org/project/Flask/) - A micro web framework written in Python.
+- [Materialize v1.0.0](https://materializecss.com) - A responsive front-end CSS library based on Google's Material Design.
+
+### Libraries
+
+- [Font Awesome:](https://fontawesome.com/) - For the icons on the website.
+- [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - A fast, expressive, extensible templating engine.
+
+### Programs
+
+1. [Heroku](https://www.heroku.com) - For website deployment.
+1. [MongoDB](https://www.mongodb.com) - The database used for storing information for the site.
+1. [Github:](https://github.com/) - To save and store the files for the website.
+1. [Red Ketchup:](https://redketchup.io/image-resizer) - To rezie images.
+1. [Cloud Convert:](https://cloudconvert.com/jpeg-to-webp) - To convert images from jpeg to webp.
+1. [Coolers:](https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61) - Used for project color palette 
+
 ## Deployment
 
 ## Live
