@@ -1,10 +1,42 @@
-#Recipe Keeper
+# Recipe Keeper
 
 Recipe Keeper is a user-friendly website designed to help users discover and organize their favourite recipes. Whether you're a seasoned chef or just starting out in the kitchen, Recipe Keeper offers a platform where you can upload your own recipes, explore recipes shared by others, and keep track of your culinary creations.
 
-![Website view on various screen sizes]()
+<img src="" alt="An image representing how the site looks across varying device sizes.">
 
 [Access the live site here.](https://recipe-keeper-project-967d6327becc.herokuapp.com/)
+
+## User Experience (UX)
+
+Recipe Keeper has been developed as a simple and intuitive storage application for users to create and edit their recipes whilst discovering new ones. Recipe Keeper was designed for my Milestone Project 3 with [Code Institute](https://codeinstitute.net/) aimed specifically at back end development with databases using Python and Flask. Although there was no specific client in mind for the project, I had several user goals I wanted to achieve.
+
+### User Goals
+
+- Display your recipe: Create and save your favourite recipes and have them greet all users on the home page.
+- Recipe Management: Add, Delete, Edit and View your personal recipes within your profile.
+- Personalized Experience: Create your account with unique user authentication.
+
+### Design
+
+#### Colour Scheme
+
+The main colours used throughout the site were chosen from [Coolers](https://coolors.co/) using the generator until I come across colors I liked.
+
+<details><summary>Recipe Keeper Colour Scheme</summary>
+<img src="" alt="">
+</details>
+
+#### Typography
+
+Roboto is the main font used throughout the website which provides a highly-readable text at all sizes.
+
+#### Imagery
+
+Only one image is used throughout the website and that is the default recipe card image, should a user not provide the optional URL to display a recipe image. The image was found on [Freepik](https://www.freepik.com/free-photo/delicious-goulash-ready-dinner_25178936.htm).
+
+<details><summary>Default Recipe Card Image URL</summary>
+<img src="" alt="Default recipe card image, displaying a delicious serving of Goulash.">
+</details>
 
 ## Technologies Used
 
