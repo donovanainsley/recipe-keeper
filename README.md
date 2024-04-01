@@ -26,10 +26,10 @@ Recipe Keeper has been developed as a simple and intuitive storage application f
 
 #### Colour Scheme
 
-The main colours used throughout the site were chosen from [Coolers](https://coolors.co/) using the generator until I come across colors I liked.
+The main colours used throughout the site were chosen from [Coolors](https://coolors.co/) using the generator until I come across colors I liked.
 
 <details><summary>Recipe Keeper Colour Scheme</summary>
-<img src="" alt="">
+<img src="static/documents/recipekeeper_coolor_palette.png" alt="">
 </details>
 
 #### Typography
@@ -41,7 +41,7 @@ Roboto is the main font used throughout the website which provides a highly-read
 Only one image is used throughout the website and that is the default recipe card image, should a user not provide the optional URL to display a recipe image. The image was found on [Freepik](https://www.freepik.com/free-photo/delicious-goulash-ready-dinner_25178936.htm).
 
 <details><summary>Default Recipe Card Image URL</summary>
-<img src="" alt="Default recipe card image, displaying a delicious serving of Goulash.">
+<img src="static/images/dinner-is-served.webp" alt="Default recipe card image, displaying a delicious serving of Goulash.">
 </details>
 
 ## Technologies Used
