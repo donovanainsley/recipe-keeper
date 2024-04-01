@@ -22,7 +22,7 @@ mongo = PyMongo(app)
 @app.route("/home")
 def home():
     recipe = list(mongo.db.recipes.find())
-    return render_template ("index.html", recipes=recipe)
+    return render_template("index.html", recipes=recipe)
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -46,7 +46,7 @@ def register():
         session["user"] = request.form.get("username").lower()
         flash("Registration Successful!")
         return redirect(url_for("profile", username=session["user"]))
-        
+
     return render_template("register.html")
 
 
@@ -56,15 +56,16 @@ def login():
         # check if username exists in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
-        
+
         if existing_user:
             # ensure hashed password matches user input
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
-                    session["user"] = request.form.get("username").lower()
-                    flash("Welcome, {}".format(
+                existing_user["password"],
+                    request.form.get("password")):
+                session["user"] = request.form.get("username").lower()
+                flash("Welcome, {}".format(
                         request.form.get("username")))
-                    return redirect(url_for(
+                return redirect(url_for(
                         "profile", username=session["user"]))
             else:
                 # invalid password match
@@ -84,8 +85,8 @@ def profile(username):
     user_recipes = list(mongo.db.recipes.find({"created_by": session["user"]}))
 
     if session.get("user"):
-        return render_template("profile.html", 
-        username=username, user_recipes=user_recipes)
+        return render_template("profile.html",
+                               username=username, user_recipes=user_recipes)
 
     return redirect(url_for("login"))
 
@@ -115,12 +116,13 @@ def add_recipe():
         return redirect(url_for("home"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template ("add_recipe.html", categories=categories)
+    return render_template("add_recipe.html", categories=categories)
+
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     if request.method == "POST":
-        submit  = {
+        submit = {
             "category_name": request.form.get("category_name"),
             "recipe_name": request.form.get("recipe_name"),
             "recipe_description": request.form.get("recipe_description"),
@@ -128,12 +130,14 @@ def edit_recipe(recipe_id):
             "recipe_method": request.form.get("recipe_method"),
             "image_url": request.form.get("image_url")
         }
-        mongo.db.recipes.update_one({"_id": ObjectId(recipe_id)},{"$set": submit})
+        mongo.db.recipes.update_one({"_id": ObjectId(recipe_id)},
+                                    {"$set": submit})
         flash("Recipe Successfully Updated")
 
-    recipe = mongo.db.recipes.find_one({"_id":ObjectId(recipe_id)})
+    recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template ("edit_recipe.html", recipe=recipe, categories=categories)
+    return render_template("edit_recipe.html",
+                           recipe=recipe, categories=categories)
 
 
 @app.route("/delete_recipe/<recipe_id>")
@@ -153,4 +157,4 @@ if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
             # remember to set debug=False for project submission
-            debug=True) 
+            debug=True)
