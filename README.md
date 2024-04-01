@@ -165,8 +165,8 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 95 | 83 | 93 | 100 |
-| Mobile | 69 | 83 | 96 | 100 |
+| Desktop | 100 | 84 | 100 | 100 |
+| Mobile | 92 | 84 | 100 | 100 |
 
 <details><summary>Register</summary>
 <img src="static/documents/lighthouse_register_desktop.png" alt="Lighthouse desktop test for register page">
@@ -178,6 +178,61 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 | :---: | :---: | :---: | :---: | :---: |
 | Desktop | 99 | 78 | 100 | 100 |
 | Mobile | 90 | 78 | 96 | 100 |
+
+<details><summary>Login</summary>
+<img src="static/documents/lighthouse_login_desktop.png" alt="Lighthouse desktop test for login page">
+
+<img src="static/documents/lighthouse_login_mobile.png" alt="Lighthouse mobile test for login page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 100 | 78 | 100 | 100 |
+| Mobile | 92 | 78 | 96 | 100 |
+
+<details><summary>Profile</summary>
+<img src="static/documents/lighthouse_profile_desktop.png" alt="Lighthouse desktop test for profile page">
+
+<img src="static/documents/lighthouse_profile_mobile.png" alt="Lighthouse mobile test for profile page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 100 | 83 | 96 | 100 |
+| Mobile | 92 | 83 | 96 | 100 |
+
+<details><summary>Add Recipe</summary>
+<img src="static/documents/lighthouse_addrecipe_desktop.png" alt="Lighthouse desktop test for add recipe page">
+
+<img src="static/documents/lighthouse_addrecipe_mobile.png" alt="Lighthouse mobile test for add recipe page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 99 | 76 | 100 | 100 |
+| Mobile | 82 | 76 | 100 | 100 |
+
+<details><summary>View Recipe</summary>
+<img src="static/documents/lighthouse_viewrecipe_desktop.png" alt="Lighthouse desktop test for view recipe page">
+
+<img src="static/documents/lighthouse_viewrecipe_mobile.png" alt="Lighthouse mobile test for view recipe page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 97 | 92 | 100 | 100 |
+| Mobile | 70 | 92 | 100 | 100 |
+
+<details><summary>Edit Recipe</summary>
+<img src="static/documents/lighthouse_editrecipe_desktop.png" alt="Lighthouse desktop test for edit recipe page">
+
+<img src="static/documents/lighthouse_editrecipe_mobile.png" alt="Lighthouse mobile test for edit recipe page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 99 | 76 | 100 | 100 |
+| Mobile | 86 | 76 | 100 | 100 |
 
 ## Deployment
 
