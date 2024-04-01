@@ -29,7 +29,7 @@ Recipe Keeper has been developed as a simple and intuitive storage application f
 The main colours used throughout the site were chosen from [Coolors](https://coolors.co/) using the generator until I come across colors I liked.
 
 <details><summary>Recipe Keeper Colour Scheme</summary>
-<img src="static/documents/recipekeeper_coolor_palette.png" alt="">
+<img src="static/documents/recipekeeper_coolor_palette.png" alt="An image displaying the color palette used throughout the site.">
 </details>
 
 #### Typography
@@ -91,6 +91,45 @@ Features I would like to include in the future are:
 1. [Red Ketchup:](https://redketchup.io/image-resizer) - To rezie images.
 1. [Cloud Convert:](https://cloudconvert.com/jpeg-to-webp) - To convert images from jpeg to webp.
 1. [Coolers:](https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61) - Used for project color palette 
+
+## Testing
+
+Testing was conducted throughout the development process to ensure site functionality.
+
+### HTML Testing
+
+The W3C Markup Validator service was used to validate the site's pages to ensure there were no syntax errors.
+
+<details><summary>Index HTML Validation</summary>
+<img src="static/documents/index_validated.png" alt="index html testing, no errors found">
+</details>
+
+<details><summary>Register HTML Validation</summary>
+<img src="static/documents/register_validated.png" alt="register html testing, no errors found">
+</details>
+
+<details><summary>Login HTML Validation</summary>
+<img src="static/documents/login_validated.png" alt="login html testing, no errors found">
+</details>
+
+<details><summary>Profile HTML Validation</summary>
+<img src="" alt="profile html testing, no errors found">
+</details>
+
+<details><summary>Add Recipe HTML Validation</summary>
+<img src="static/documents/addrecipe_validated.png" alt="add recipe html testing, no errors found">
+</details>
+
+<details><summary>View HTML Validation</summary>
+<img src="static/documents/viewrecipe_validated.png" alt="view recipe html testing, no errors found">
+</details>
+
+
+<details><summary>Edit Recipe HTML Validation</summary>
+<img src="static/documents/editrecipe_validated.png" alt="edit recipe html testing, no errors found">
+</details>
+
+
 
 ## Deployment
 
