@@ -1,8 +1,8 @@
 # Recipe Keeper
 
-Recipe Keeper is a user-friendly website designed to help users discover and organize their favourite recipes. Whether you're a seasoned chef or just starting out in the kitchen, Recipe Keeper offers a platform where you can upload your own recipes, explore recipes shared by others, and keep track of your culinary creations.
+<img src="static/documents/recipekeeper_amir.png" alt="An image representing how the site looks across varying device sizes.">
 
-<img src="" alt="An image representing how the site looks across varying device sizes.">
+Recipe Keeper is a user-friendly website designed to help users discover and organize their favourite recipes. Whether you're a seasoned chef or just starting out in the kitchen, Recipe Keeper offers a platform where you can upload your own recipes, explore recipes shared by others, and keep track of your culinary creations.
 
 [Access the live site here.](https://recipe-keeper-project-967d6327becc.herokuapp.com/)
 
@@ -15,6 +15,12 @@ Recipe Keeper has been developed as a simple and intuitive storage application f
 - Display your recipe: Create and save your favourite recipes and have them greet all users on the home page.
 - Recipe Management: Add, Delete, Edit and View your personal recipes within your profile.
 - Personalized Experience: Create your account with unique user authentication.
+
+### User Stories
+
+1. I want to be able to create a profile to store my recipes.
+2. I want to be able to view personal recipes and recipes created by others.
+3. I want to be able to create, edit and delete recipes should I need to.
 
 ### Design
 
@@ -69,7 +75,7 @@ Only one image is used throughout the website and that is the default recipe car
 
 ## Deployment
 
-## Live
+### Live
 
 The project was deployed to [Heroku](https://dashboard.heroku.com/). [Access the live site here.](https://recipe-keeper-project-967d6327becc.herokuapp.com/)
 
