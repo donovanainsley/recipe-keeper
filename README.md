@@ -137,6 +137,14 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 <img src="static/documents/recipekeeper_js_validated.png" alt="javascript validation">
 </details>
 
+### Python Testing
+
+[CI Pythong Linter](https://pep8ci.herokuapp.com/#) has been used to validate my python code and esnured it's pep8 compliant.
+
+<details><summary>Python Validation</summary>
+<img src="static/documents/recipekeeper_python_validated.png" alt="python validation">
+</details>
+
 ## Deployment
 
 ### Live
