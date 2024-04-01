@@ -153,6 +153,32 @@ The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validat
 <img src="static/documents/recipekeeper_python_validated.png" alt="python validation">
 </details>
 
+### Lighthouse
+
+The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted for each page.
+
+<details><summary>Index</summary>
+<img src="static/documents/lighthouse_index_desktop.png" alt="Lighthouse desktop test for index page">
+
+<img src="static/documents/lighthouse_index_mobile.png" alt="Lighthouse mobile test for index page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 95 | 83 | 93 | 100 |
+| Mobile | 69 | 83 | 96 | 100 |
+
+<details><summary>Register</summary>
+<img src="static/documents/lighthouse_register_desktop.png" alt="Lighthouse desktop test for register page">
+
+<img src="static/documents/lighthouse_register_mobile.png" alt="Lighthouse mobile test for register page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 99 | 78 | 100 | 100 |
+| Mobile | 90 | 78 | 96 | 100 |
+
 ## Deployment
 
 ### Live
