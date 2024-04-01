@@ -98,7 +98,7 @@ Testing was conducted throughout the development process to ensure site function
 
 ### HTML Testing
 
-The W3C Markup Validator service was used to validate the site's pages to ensure there were no syntax errors.
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the site's pages to ensure there were no syntax errors.
 
 <details><summary>Index HTML Validation</summary>
 <img src="static/documents/index_validated.png" alt="index html testing, no errors found">
@@ -129,7 +129,13 @@ The W3C Markup Validator service was used to validate the site's pages to ensure
 <img src="static/documents/editrecipe_validated.png" alt="edit recipe html testing, no errors found">
 </details>
 
+### JavaScript Testing
 
+[JS HINT](https://jshint.com/) was used to test the jquery code copied from Materialize.
+
+<details><summary>JavaScript Validation</summary>
+<img src="static/documents/recipekeeper_js_validated.png" alt="javascript validation">
+</details>
 
 ## Deployment
 
