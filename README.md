@@ -44,6 +44,25 @@ Only one image is used throughout the website and that is the default recipe car
 <img src="static/images/dinner-is-served.webp" alt="Default recipe card image, displaying a delicious serving of Goulash.">
 </details>
 
+## Features
+
+- Responsive on all devices
+- Intutive top navbar on large device screens and a sidenav on smaller screens.
+- Ability to register an account, loging and logout if you're an existing user.
+- Home (Recipes) page where recipes created by all registered users are displayed as cards, that can then be selected, to take users to the full recipe.
+- A view recipe page, where selected recipes are displayed with all required ingredients and cooking method.
+- User profile's, where user's can add, edit, view or delete their personal recipes.
+- Forms to register, login, add and edit recipes.
+- Flash messages when users have successfully registered, logged in or out, created, edited or deleted a recipe.
+- Defensive programming when logining and a modal to confirm a deletion action, to prevent unintentional data loss.
+
+### Future Features
+
+Features I would like to include in the future are:
+
+- Like feature on recipes found on the home page.
+- Comment feature on recipes found on the home page.
+
 ## Technologies Used
 
 ### Languages
