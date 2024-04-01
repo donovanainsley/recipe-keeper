@@ -129,6 +129,14 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 <img src="static/documents/editrecipe_validated.png" alt="edit recipe html testing, no errors found">
 </details>
 
+### CSS Testing
+
+The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate custom css styling.
+
+<details><summary>CSS Validation</summary>
+<img src="static/documents/css_validation.png" alt="css validation">
+</details>
+
 ### JavaScript Testing
 
 [JS HINT](https://jshint.com/) was used to test the jquery code copied from Materialize.
