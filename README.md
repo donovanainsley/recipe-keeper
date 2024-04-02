@@ -165,8 +165,8 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 100 | 84 | 100 | 100 |
-| Mobile | 92 | 84 | 100 | 100 |
+| Desktop | 95 | 84 | 100 | 100 |
+| Mobile | 69 | 84 | 100 | 100 |
 
 <details><summary>Register</summary>
 <img src="static/documents/lighthouse_register_desktop.png" alt="Lighthouse desktop test for register page">
