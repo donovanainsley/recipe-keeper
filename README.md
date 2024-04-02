@@ -350,3 +350,8 @@ Content for the website was written by the developer, [donovanainsley](https://g
 ### Media 
 
 - Back-up URL image for recipe cards was sourced from [Freepik](https://www.freepik.com/).
+
+### Acknowledgements
+
+- Amy Richards - Cohort Facilitator
+- June 2023 Cohort: An amazing group of like minded people, who are always there to support one another and I appreciate you all, thank you!
