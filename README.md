@@ -282,6 +282,25 @@ To deploy your app on [Heroku](https://www.heroku.com/platform), these are the s
 16. Once complete, you can click Open App to view the live site.
 - NOTE: The live site will now update any time changes are pushed to the connected GitHub repository.
 
+### MongoDB Non-Relational Database
+
+This project uses [MongoDb](https://www.mongodb.com/atlas), non-relation database.
+
+To connect your repositry to your database, follow these steps:
+
+1. Sign up for a MongoDB account.
+2. Select tier (plan), cloud provider, and locality for deployment.
+3. Create a cluster.
+4. Set up a new database user in Database Access, choosing a username and password for authentication, only using letters and numbers to avoid connection issues.
+5. Select built-in role of "read and write to any database".
+6. Add IP address, selecting whether it is local or allow access from anywhere.
+7. Create a database and collections: This database name MUST be added to the env.py file as the value for "MONGO_DBNAME".
+8. Connect to the cluster.
+9. Copy the connection string provided and add it to the env.py file as the value for "MONGO_URI".
+10. Replace the <password> placeholder string with the password your created in step 4.
+11. Add the database name created in step to the connection string between the '/' and '?'.
+
+
 ### Fork Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
