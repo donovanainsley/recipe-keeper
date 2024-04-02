@@ -234,6 +234,15 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 | Desktop | 99 | 76 | 100 | 100 |
 | Mobile | 86 | 76 | 100 | 100 |
 
+### Testing User Stories
+
+|  Goal |  Result |
+| :---: | :---: | 
+| Create a profile | <img src="static/documents/register_user.gif" style="width: 400px; height: auto;"> |
+| Create a recipe | <img src="static/documents/create_recipe.gif" style="width: 400px; height: auto;"> |
+| View recipes | <img src="static/documents/view_recipes.gif" style="width: 400px; height: auto;"> |
+
+
 ## Deployment
 
 ### Live
