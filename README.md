@@ -238,9 +238,13 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 
 |  Goal |  Result |
 | :---: | :---: | 
-| Create a profile | <img src="static/documents/register_user.gif" style="width: 400px; height: auto;"> |
-| Create a recipe | <img src="static/documents/create_recipe.gif" style="width: 400px; height: auto;"> |
-| View recipes | <img src="static/documents/view_recipes.gif" style="width: 400px; height: auto;"> |
+| Create a profile | <img src="static/documents/register_user.png" style="width: 400px; height: auto;"> |
+| Create a recipe | <img src="static/documents/create_recipe.png" style="width: 400px; height: auto;"> <img src="static/documents/users_recipe.png" style="width: 400px; height: auto;"> |
+| View recipes | <img src="static/documents/view_recipes.png" style="width: 400px; height: auto;">  <img src="static/documents/view_recipe.png" style="width: 400px; height: auto;"> |
+| Edit recipes | <img src="static/documents/edit_recipe.png" style="width: 400px; height: auto;"> |
+| Delete recipes | <img src="static/documents/delete_recipe.png" style="width: 400px; height: auto;"> <img src="static/documents/deleted_recipe.png" style="width: 400px; height: auto;">|
+
+
 
 
 ## Deployment
