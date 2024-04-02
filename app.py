@@ -18,6 +18,7 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
+# Home page route
 @app.route("/")
 @app.route("/home")
 def home():
@@ -25,6 +26,7 @@ def home():
     return render_template("index.html", recipes=recipe)
 
 
+# User registration route
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -50,6 +52,7 @@ def register():
     return render_template("register.html")
 
 
+# User login route
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -79,6 +82,7 @@ def login():
     return render_template("login.html")
 
 
+# User profile route
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
 
@@ -91,6 +95,7 @@ def profile(username):
     return redirect(url_for("login"))
 
 
+# User logout route
 @app.route("/logout")
 def logout():
     # remove user from session cookie
@@ -99,6 +104,7 @@ def logout():
     return redirect(url_for("login"))
 
 
+# Add recipe route
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
     if request.method == "POST":
@@ -119,6 +125,7 @@ def add_recipe():
     return render_template("add_recipe.html", categories=categories)
 
 
+# Edit recipe route
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     if request.method == "POST":
@@ -140,6 +147,7 @@ def edit_recipe(recipe_id):
                            recipe=recipe, categories=categories)
 
 
+# Deelet recipe route
 @app.route("/delete_recipe/<recipe_id>")
 def delete_recipe(recipe_id):
     mongo.db.recipes.delete_one({"_id": ObjectId(recipe_id)})
@@ -147,12 +155,14 @@ def delete_recipe(recipe_id):
     return redirect(url_for("home"))
 
 
+# View recipe route
 @app.route("/view_recipe/<recipe_id>")
 def view_recipe(recipe_id):
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     return render_template("view_recipe.html", recipe=recipe)
 
 
+# Run app
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
