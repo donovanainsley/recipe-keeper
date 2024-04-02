@@ -2,7 +2,7 @@
 
 <img src="static/documents/recipekeeper_amir.png" alt="An image representing how the site looks across varying device sizes.">
 
-Recipe Keeper is a user-friendly website designed to help users discover and organize their favourite recipes. Whether you're a seasoned chef or just starting out in the kitchen, Recipe Keeper offers a platform where you can upload your own recipes, explore recipes shared by others, and keep track of your culinary creations.
+Recipe Keeper is a user-friendly website designed to help users discover and organize their favourite recipes. Whether you're a seasoned chef or just starting out in the kitchen, Recipe Keeper offers a platform where you can upload your own recipes, explore recipes shared by others, and keep track of your culinary creations. The technologies at the core of this project are HTML5, CSS3, JavaScript and Python with Flask.
 
 [Access the live site here.](https://recipe-keeper-project-967d6327becc.herokuapp.com/)
 
@@ -238,7 +238,7 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 
 |  Goal |  Result |
 | :---: | :---: | 
-| Create a profile | <img src="static/documents/register_user.png" style="width: 400px; height: auto;"> |
+| Create a profile | <img src="static/documents/register_user.png" style="width: 400px; height: auto;"> <img src="static/documents/create_user_successful.png" style="width: 400px; height: auto;"> |
 | Create a recipe | <img src="static/documents/create_recipe.png" style="width: 400px; height: auto;"> <img src="static/documents/users_recipe.png" style="width: 400px; height: auto;"> |
 | View recipes | <img src="static/documents/view_recipes.png" style="width: 400px; height: auto;">  <img src="static/documents/view_recipe.png" style="width: 400px; height: auto;"> |
 | Edit recipes | <img src="static/documents/edit_recipe.png" style="width: 400px; height: auto;"> |
