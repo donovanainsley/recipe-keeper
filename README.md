@@ -113,7 +113,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 </details>
 
 <details><summary>Profile HTML Validation</summary>
-<img src="" alt="profile html testing, no errors found">
+<img src="static/documents/profile_validated.png" alt="profile html testing, no errors found">
 </details>
 
 <details><summary>Add Recipe HTML Validation</summary>
